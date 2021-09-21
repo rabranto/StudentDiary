@@ -14,9 +14,9 @@ namespace StudentDiary
             diary.AddGrades(6);
             diary.AddGrades(1);
 
-            diary.GetBestGrade();
-            diary.GetWorstGrade();
-            Console.ReadKey();
+            Console.WriteLine($"Your best grade is: {diary.GetBestGrade()}");
+            Console.WriteLine($"Your best grade is: {diary.GetWorstGrade()}");
+            Console.WriteLine($"Your average is: {diary.CalculateAverage()}");
         }
     }
 }

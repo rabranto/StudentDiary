@@ -39,13 +39,13 @@ namespace StudentDiary
             return sum / grades.Count();
         }
 
-        public void GetBestGrade()
+        public double GetBestGrade()
         {
-            Console.WriteLine(grades.Max());
+            return grades.Max();
         }
-        public void GetWorstGrade()
+        public double GetWorstGrade()
         {
-            Console.WriteLine(grades.Min());
+            return grades.Min();
         }
     }
 }
